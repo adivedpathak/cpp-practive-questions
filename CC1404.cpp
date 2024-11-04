@@ -18,9 +18,9 @@ int main() {
         {
             vec.push_back(i);
         }
-        if (n > 3)
+        if (n > 3){
             vec.push_back(n - 3);
-
+        }
         vec.push_back(n);
         for (auto & val: vec)
         {
